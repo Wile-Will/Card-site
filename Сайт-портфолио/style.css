@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 16px;
+    color: #f2f2f2;
+    background-color: #1a181a;
+    margin: 20px;
+    padding-left: 20px;
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
+.footer {
+    position: fixed;
+    left: 5%;
+    bottom: 0;
+    width: 100%;
+    background-color: #1a181a;
+}
+.footer .contact p em {
+    font-size: 10px;
+    color: indigo;
+    padding: none;
+}
+.footer .contact li {
+    text-decoration: underline;
+    color: rgb(66, 75, 75);
+}
+.progressbar {
+    height: 20px;
+    position: relative;
+    background: #555;
+    padding: 3px;
+}
+.progressbar > span {
+    display: block;
+    height: 100%;
+    background-color: green;
+}
+.container p {
+    margin-left: 5%;
+}
+header {
+    text-align: center;
+    margin: 50px;
+}
+section {
+    text-align: left;
+    max-width: 60%;
+    margin-left: 250px;
+}
+li {
+    margin: 10px;
+    vertical-align: middle;
+}
+ol {
+    padding: 20px;
+    text-align: center;
+    border-block: 5px solid #f5f5f5;
+    list-style: none;
+}
+ul {
+    list-style-type: none;
+    border-left: 5px solid #312f31;
+}
+.contact {
+    border-top: 5px solid #000000;
+    max-width: 90%;
+    background-color: #1a181a;
+}
+.skills ul {
+    list-style-type: square;
+    line-height: 115%;
+}
